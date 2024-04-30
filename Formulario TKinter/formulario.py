@@ -51,5 +51,4 @@ ciudad_listbox.grid(row=6, column=2)
 
 tk.Button(ventana, text="Registrar", command=registrar).grid(row=7, column=2, columnspan=2)
 
-# Iniciar el bucle principal de la ventana
 ventana.mainloop()
