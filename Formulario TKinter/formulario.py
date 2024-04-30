@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
-
+#Dairo Barrios Rivero
 def registrar():
     nombre = nombre_entry.get()
     apellido = apellido_entry.get()
