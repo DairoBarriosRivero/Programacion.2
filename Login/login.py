@@ -34,6 +34,8 @@ class VentanaPrincipal(tk.Tk):
     def ingresar(self):
         usuario = self.entry_usuario.get()
         clave = self.entry_clave.get()
+        print(usuario)
+        print(clave)
         
 if __name__ == "__main__":
     ventana = VentanaPrincipal()
